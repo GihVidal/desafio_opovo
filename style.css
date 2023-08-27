@@ -16,3 +16,46 @@ footer {
     color: #fff;
     font-size: 11px;
 }
+
+.return {
+    margin: 50px 0px 50px 0px;
+}
+
+.title {
+    margin-bottom: 35px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 26px;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+h5 {
+    font-size: 19px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+.content h3 {
+    margin: 30px 0px 10px 0px;
+}
+
+#rect {
+    width: 290px;
+    height: 1590px;
+    background-color: #314163;
+    margin-top: 127px;
+}
