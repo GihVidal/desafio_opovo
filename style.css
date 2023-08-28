@@ -1,12 +1,23 @@
 body {
     font-family: 'Oswald', 'PT Serif', sans-serif !important;
+    color: #314163;
 }
 
 .navbar {
     background-color: #0079c1;
+    color: #fff;
+    position: absolute;
+    width: 100% !important;
+    height: 40px;
+    align-items: center;
+    align-content: center;
 }
 
 .nav-link {
+    color: #fff;
+}
+
+.navbar-toggler {
     color: #fff;
 }
 
@@ -15,6 +26,7 @@ footer {
     height: 40px;
     color: #fff;
     font-size: 11px;
+    margin-top: 127px;
 }
 
 .return {
@@ -53,9 +65,121 @@ h6 {
     margin: 30px 0px 10px 0px;
 }
 
+.content p {
+    font-family: "PT Serif";
+    font-size: 19px;
+}
+
 #rect {
     width: 290px;
     height: 1590px;
     background-color: #314163;
     margin-top: 127px;
+    z-index: -99;
+    position: absolute;
+}
+
+#form-bg {
+    width: 490px;
+    height: 827px;
+    background-color: #e8f8ff;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 30px;
+    z-index: 10;
+}
+
+#form-frame {
+    border: solid #314163;
+    border-width: 1px 1px 1px 1px;
+    width: 457px;
+    height: 712px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 25px;
+}
+
+#form-frame h3 {
+    margin-top: 35px;
+    margin-bottom: 12px;
+}
+
+#form-frame h4 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#form-frame label {
+    margin-bottom: 8px;
+    margin-top: 8px;
+    font-size: 22px;
+}
+
+#form-frame input {
+    background-color: #e8f8ff;
+    border: solid #314163 1px;
+    height: 30px;
+}
+
+#form-frame p {
+    font-size: 14px;
+    font-family: "oswald light";
+    line-height: 1px;
+    align-self: center;
+    text-align: start;
+}
+
+.inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.inputfile+label {
+    font-size: 20px;
+    font-family: 'Oswald';
+    font-weight: 400;
+    color: #fff;
+    background-color: #4a85af;
+    display: inline-block;
+    height: 40px;
+    width: 165px;
+    text-align: center;
+    text-justify: auto;
+    cursor: pointer;
+}
+
+.inputfile:focus+label,
+.inputfile+label:hover {
+    background-color: rgba(17, 133, 243, 0.259);
+}
+
+#cv-bnt {
+    height: 40px;
+    width: 165px;
+    border: 0px;
+    background-color: #314163;
+    color: #fff;
+
+}
+
+#cv-bnt:focus,
+#cv-bnt:hover {
+    background-color: rgba(17, 133, 243, 0.259);
+}
+
+a {
+    text-decoration: none;
+    color: #314163;
+    font-style: normal;
+}
+
+a:hover {
+    color: #0079c1;
+    text-decoration: none;
+    cursor: pointer;
 }
