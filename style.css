@@ -3,20 +3,10 @@ body {
     color: #314163;
 }
 
-@media (max-width: 768px) {
-    nav.navbar.navbar-dark {
-        width: 115% !important;
-    }
-
-    .align-items-center {
-        align-items: center !important;
-        width: 115% !important;
-    }
-}
-
 .navbar {
     background-color: #0079c1;
     color: #fff;
+    width: 100%;
 }
 
 .nav-link {
@@ -69,7 +59,7 @@ h6 {
 }
 
 .content {
-    z-index: 10;
+    z-index: 1;
     position: relative;
 }
 
@@ -83,7 +73,7 @@ h6 {
 }
 
 #rect {
-    width: 290px;
+    width: 70%;
     height: 1590px;
     background-color: #314163;
     margin-top: 127px;
@@ -91,24 +81,21 @@ h6 {
 }
 
 #form-bg {
-    width: 490px;
-    height: 827px;
     background-color: #e8f8ff;
     padding-top: 15px;
     padding-left: 15px;
     padding-right: 15px;
+    padding-bottom: 30px;
     margin-top: 30px;
     z-index: 10;
-    position: relative;
 }
 
 #form-frame {
     border: solid #314163;
     border-width: 1px 1px 1px 1px;
-    width: 457px;
-    height: 712px;
     padding-left: 15px;
     padding-right: 15px;
+    padding-bottom: 42px;
     margin-bottom: 25px;
 }
 
@@ -123,21 +110,20 @@ h6 {
 }
 
 #form-frame label {
-    margin-bottom: 8px;
-    margin-top: 8px;
+    margin-bottom: 10px;
+    margin-top: 10px;
     font-size: 22px;
 }
 
 #form-frame input {
     background-color: #e8f8ff;
     border: solid #314163 1px;
-    height: 30px;
+    height: 33px;
 }
 
 #form-frame p {
     font-size: 14px;
     font-family: "oswald light";
-    line-height: 1px;
     align-self: center;
     text-align: start;
 }
@@ -158,11 +144,10 @@ h6 {
     color: #fff;
     background-color: #4a85af;
     display: inline-block;
-    height: 40px;
-    width: 165px;
     text-align: center;
     text-justify: auto;
     cursor: pointer;
+    width: 100%;
 }
 
 .inputfile:focus+label,
@@ -171,12 +156,13 @@ h6 {
 }
 
 #cv-bnt {
-    height: 40px;
-    width: 165px;
     border: 0px;
     background-color: #314163;
     color: #fff;
-
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    font-size: 20px;
 }
 
 #cv-bnt:focus,
