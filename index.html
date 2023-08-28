@@ -80,9 +80,9 @@
                 <div class="return">
                     <a target="_self" href="#">
                         <h5>
-                            <em class="bi bi-arrow-left">
+                            <a class="bi bi-arrow-left">
                                 Voltar
-                            </em>
+                            </a>
                         </h5>
                     </a>
                 </div>
@@ -124,8 +124,9 @@
                         8- 18h
                     </p>
                 </div>
-                <div id="form-bg">
-                    <form>
+                <div id="form-bg" class="container">
+                    <div class="row">
+                    <form class="container">
                         <div id="form-frame" class="form-row">
                             <h3>Envie seu currículo</h3>
                             <div class="col-12">
@@ -145,43 +146,44 @@
                                 <input type="text" class="form-control" id="endereço" name="endereço" required>
                             </div>
                             <div class="row d-flex">
-                                <div class="col-5">
+                                <div class="col-sm-5">
                                     <label for="numero" class="form-label">Número</label>
                                     <input type="text" class="form-control" id="numero" name="numero" required>
                                 </div>
-                                <div class="col-7">
+                                <div class="col-sm-7">
                                     <label for="bairro" class="form-label">Bairro</label>
                                     <input type="text" class="form-control" id="bairro" name="bairro" required>
                                 </div>
                             </div>
                             <div class="row d-flex">
-                                <div class="col-5">
+                                <div class="col-sm-5">
                                     <label for="cidade" class="form-label">Cidade</label>
                                     <input type="text" class="form-control" id="cidade" name="cidade" required>
                                 </div>
-                                <div class="col-7">
+                                <div class="col-sm-7">
                                     <label for="estado" class="form-label">Estado</label>
                                     <input type="text" class="form-control" id="estado" name="estado" required>
                                 </div>
                             </div>
                             <h4>Currículo</h4>
                             <div class="row g-1">
-                                <div class="col-5">
+                                <div class="col-md-5">
                                     <input type="file" name="file" id="file" class="inputfile" />
                                     <label for="file" class="hover-overlay">Anexar currículo</label>
                                 </div>
-                                <div class="col-7">
-                                    <p>Todos os campos são obrigatórios</p>
-                                    <p>Tamanho máximo para upload - 10mb</p>
-                                    <p>Tipo de arquivo: .pdf ou .doc</p>
+                                <div class="col-7 pt-1">
+                                    <p>Todos os campos são obrigatórios<br>
+                                    Tamanho máximo para upload - 10mb<br>
+                                    Tipo de arquivo: .pdf ou .doc</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="d-flex justify-content-end">
+                        <div class="col-md-4 float-end">
                             <button type="submit" class="bnt" id="cv-bnt">Enviar currículo</button>
                         </div>
                     </form>
                 </div>
+            </div>
             </div>
             <div class="col-4 offset-2">
                 <div id="rect" class="d-flex align-items-center justify-content-end">
@@ -193,11 +195,11 @@
     </div>
     <footer class="static-bottom d-flex align-items-center">
         <div class="container">
-            <div class="row justify-content-between">
-                <div class="col-2 justify-content-start">
+            <div class="row justify-content-between text-start">
+                <div class="col-6 justify-content-start">
                     O Povo online
                 </div>
-                <div class="col-2 justify-content-end">
+                <div class="col-6 justify-content-end text-end">
                     Copyright© 1994-2023
                 </div>
             </div>
